@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html com JS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Formulário</h1>
+        <h2>Teste Validação com JavaScrip</h2>
+        <h3> <ul>
+            <li> Insira um numero nos campos a abaixo;</li>
+            <li> Clique no botão para validar;</li>
+            <li> Para que o formulário seja valido o número inserido no campo A deve ser <b> Menor </b> que o numero inserido no campo B .</li>
+        </ul>
+
+        </h3>
+        <form id="formulario">
+            <input type="number" id="campoA" required placeholder="Campo A" />
+            <input type="number" id="campoB" required placeholder="Campo B" />
+            <button type="submit" id="validação">Validar</button>
+        </form>
+        <p class="validado"></p>
+        <p class="nao-validado"></p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
